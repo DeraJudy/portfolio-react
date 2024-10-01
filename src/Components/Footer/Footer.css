@@ -70,3 +70,43 @@
     gap: 50px;
     margin-bottom: 50px;
 }
+
+@media (max-width: 980px) {
+    .footer{
+        margin: 50px 70px;
+    }
+
+    .footer-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-top-left p{
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 22px;
+        background-color: tomato;
+        justify-content: center;
+    }
+
+    .footer-top{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-top-right{
+        flex-direction: column;
+    }
+
+    .footer-subscribe{
+        font-size: 20px;
+        padding: 22px 50px;
+    }
+
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+}
+
